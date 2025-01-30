@@ -161,7 +161,9 @@
 
     .home__img {
         order: initial;
-        /* justify-self: initial; */
+        justify-self: initial;
+        /* margin-left: 65px; */
+        
         
     }
 
