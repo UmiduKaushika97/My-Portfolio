@@ -63,7 +63,11 @@
     }
 
     .about__info {
+        /* display flex i added it for responsive  */
+        display: flex;
         justify-content: center;
+        
+        
     }
 
     .about__description {
@@ -84,6 +88,6 @@
 
 @media screen and (max-width: 350px) {
     .about__info {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
     }
 }

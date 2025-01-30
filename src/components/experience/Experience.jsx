@@ -31,8 +31,8 @@ const Experience = () => {
                 <div className="exp__modal-content">
                     <i onClick={() => toggleTab(0)} className="uil uil-times exp__modal-close"></i>
 
-                    <h3 className="exp__modal-title">Software Developer Trainee <br /> Jun'24 - Currently Working🧑🏻‍💻</h3>
-                    <p className="exp__modal-description">Working currently as a Software Developer Trainee for full-time at EXA AG.
+                    <h3 className="exp__modal-title">Software Engineer <br /> March 2022 - Present🧑🏻‍💻</h3>
+                    <p className="exp__modal-description">Working currently as a Software Engineer for full-time at Virtusa Pvt Ltd.
                         Providing quality work to clients and company.
                     </p>
 
@@ -59,7 +59,7 @@ const Experience = () => {
 
         {/* /// */}
 
-        <div className="exp__content">
+        {/* <div className="exp__content">
             <div>
                 <i className="uil uil-arrow exp__icon"></i>
                 <h3 className="exp__title">Software <br /> Developer <br/> Intern</h3>
@@ -99,7 +99,8 @@ const Experience = () => {
                     </ul>
                 </div>
             </div>
-        </div>
+        </div> */}
+
     </div>
 </div>
   )
