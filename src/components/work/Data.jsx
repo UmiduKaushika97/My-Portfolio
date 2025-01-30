@@ -29,9 +29,9 @@ export const projectsNav = [
         name : 'all',
     },
 
-    {
-        name: 'app',
-    },
+    // {
+    //     name: 'app',
+    // },
 
     {
         name: 'web',
