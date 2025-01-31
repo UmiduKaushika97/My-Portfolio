@@ -16,7 +16,7 @@ const About = () => {
       <div className="about__data">
         <Info />
 
-        <p className="about__description">I am a Frontend Developer who designs and develops web pages with a refined UI/UX approach. My skill set includes HTML, CSS, JavaScript, Angular and React turning concepts into stunning web experiences.</p>
+        <p className="about__description">I am a Frontend Engineer who designs and develops web pages with a refined UI/UX approach. My skill set includes HTML, CSS, JavaScript, Angular and React turning concepts into stunning web experiences.</p>
 
         <a download="" href={CV} className="button button--flex">Download CV 
           <svg

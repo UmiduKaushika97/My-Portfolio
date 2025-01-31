@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import '../header/Header.css'
 import ThemeToggle from '../ThemeToggle/ThemeToggle';
 
@@ -49,20 +49,6 @@ const Header = () => {
 
 						<li className='nav__item'>
 							<a
-								href='#portfolio'
-								onClick={() => setActiveNav('#portfolio')}
-								className={
-									activeNav === '#portfolio'
-										? 'nav__link active-link'
-										: 'nav__link'
-								}
-							>
-								<i className='uil uil-scenery nav__icon'></i> Portfolio
-							</a>
-						</li>
-
-						<li className='nav__item'>
-							<a
 								href='#skills'
 								onClick={() => setActiveNav('#skills')}
 								className={
@@ -74,6 +60,22 @@ const Header = () => {
 								<i className='uil uil-file-alt nav__icon'></i> Skills
 							</a>
 						</li>
+
+						<li className='nav__item'>
+							<a
+								href='#Projects'
+								onClick={() => setActiveNav('#Projects')}
+								className={
+									activeNav === '#Projects'
+										? 'nav__link active-link'
+										: 'nav__link'
+								}
+							>
+								<i className='uil uil-scenery nav__icon'></i> Projects
+							</a>
+						</li>
+
+						
 
 						
 

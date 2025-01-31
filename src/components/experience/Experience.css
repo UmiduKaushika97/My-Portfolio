@@ -120,13 +120,15 @@
  
  @media screen and (max-width: 992px) {
      .exp__container {
-         grid-template-columns: repeat(3, 218px);
+         grid-template-columns: repeat(1, 218px);
      }
  }
  
  @media screen and (max-width: 768px) {
      .exp__container {
-         grid-template-columns: repeat(2, 1fr);
+         /* grid-template-columns: repeat(2, 1fr); */
+         grid-template-columns: repeat(1);
+         /* justify-content: center; */
      }
  
      .exp__content {

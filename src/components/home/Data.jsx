@@ -1,6 +1,12 @@
 // import React from 'react'
 
+import { useState } from "react";
+import { TypeAnimation } from "react-type-animation";
+
 const Data = () => {
+
+  const [showSubtitle, setShowSubtitle] = useState(false);
+
   return (
     <div className="home__data">
         <h1 className="home__title">Umidu Kaushika
@@ -55,7 +61,67 @@ const Data = () => {
         </svg>
         </h1>
         <h3 className="home__subtitle"> Software Engineer</h3>
-        <p className="home__description">I'm a creative developer based in Wattala, and I'm very passionate and dedicated to my work.</p>
+        {/* <p className="home__description">I'm a creative developer based in Wattala, and I'm very passionate and dedicated to my work.</p> */}
+        <TypeAnimation
+                cursor={false}
+                sequence={[
+                  // 'Hi, I\'m Pedro.',
+                  () => setShowSubtitle(true)
+                ]}
+                speed={{ type: "keyStrokeDelayInMs", value: 150 }}
+                wrapper="h1"
+                repeat={0}
+              />
+              {showSubtitle &&
+                <TypeAnimation
+                  cursor={true}
+                  sequence={[
+                    500,
+                    'A Frontend Engineer.',
+                    1000,
+                    'I am a creative developer based in Wattala, Sri Lanka and I m very passionate and dedicated to my work.',
+                    // 'I design and code beautifully simple things, and I love what I do.',
+                    1000,
+                    'A problem solver.',
+                    1000,
+                    'An innovative thinker.',
+                    1000,
+                    'A....',
+                    1000,
+                    'A.... cool guy?',
+                    1000,
+                    "Ok...",
+                    1000,
+                    "Ok...  I'm running out of ideas...",
+                    1000,
+                    "Uhh...",
+                    1000,
+                    "Uhh... you can scroll down to see my projects now...",
+                    300,
+                    
+                    "Seriously, my projects are really cool, go check them out!",
+                    1000,
+                    "You're uh...",
+                    1000,
+                    "You're uh... still here?",
+                    1000,
+                    "Ok, this has been fun, but I'm gonna restart the loop now...",
+                    // 1000,
+                    // "Or...",
+                    // 1000,
+                    // "Or... I could scroll you by force! Muahaha!",
+                    1000,
+                    "See ya! :)",
+                    500,
+                  ]}
+                  speed={50}
+                  deletionSpeed={65}
+                  wrapper="h5"
+                  className="home__description"
+                  repeat={Infinity}
+                  
+                />
+              }
 
         <a href="#contact" className="button button--flex">
             Say Hello
