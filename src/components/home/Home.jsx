@@ -3,6 +3,7 @@ import "../home/Home.css"
 import Social from './Social'
 import Data from './Data'
 import ScrollDown from './ScrollDown'
+import Mainpic from '../../assets/umidu-pic.png'
 
 const Home = () => {
   return (
@@ -11,7 +12,9 @@ const Home = () => {
             <div className="home__content grid">
                 <Social />
 
-                <div className="home__img"></div>
+                <div className="home__img">
+                  <img src={Mainpic} alt="" className="home__img" />
+                </div>
 
                 <Data />
             </div>
