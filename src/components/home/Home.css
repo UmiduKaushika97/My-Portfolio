@@ -148,7 +148,8 @@
     .home__img {
         width: 250px;
         height: 250px;
-        box-shadow: inset 0 0 0 8px rgb(250 95 85 / 30%);
+        /* box-shadow: inset 0 0 0 8px rgb(250 95 85 / 30%); */
+        box-shadow: inset  0 0 0 8px rgb(230, 151, 4 );
     }
 
     .home__scroll {
@@ -175,7 +176,8 @@
     }
 
     .home__img {
-        box-shadow: inset 0 0 0 6px rgb(250 95 85 / 30%);
+        /* box-shadow: inset 0 0 0 6px rgb(250 95 85 / 30%); */
+        box-shadow: inset  0 0 0 6px rgb(230, 151, 4 );
         width: 200px;
         height: 200px;
         
