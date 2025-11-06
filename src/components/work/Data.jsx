@@ -7,6 +7,7 @@ import Work7 from '../../assets/Work7.png';
 import Work8 from '../../assets/Work8.png';
 import Work9 from '../../assets/Work9.png';
 import Work10 from '../../assets/Work10.png';
+import Work11 from '../../assets/Work11.png';
 
 export const projectsData = [
     {
@@ -99,6 +100,16 @@ export const projectsData = [
         status: 'completed',
     },
 
+    {
+        id: 10,
+        image: Work11,
+        title: 'React Glass Toast',
+        category: 'NPM',
+        demoUrl: 'https://www.npmjs.com/package/react-glass-toast',
+        sourceUrl: '',
+        status: 'completed',
+    },
+
     
 ]
 
@@ -114,5 +125,9 @@ export const projectsNav = [
 
     {
         name: 'web',
+    },
+
+    {
+        name: 'NPM',
     }
 ]
