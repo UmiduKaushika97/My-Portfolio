@@ -9,6 +9,7 @@ import Work9 from '../../assets/Work9.png';
 import Work10 from '../../assets/Work10.png';
 import Work11 from '../../assets/Work11.png';
 import Work12 from '../../assets/Work12.png';
+import Work13 from '../../assets/Work13.png';
 
 export const projectsData = [
     {
@@ -117,6 +118,26 @@ export const projectsData = [
         title: 'Space Shooter Game 3D (Three.js)',
         category: 'Games',
         demoUrl: 'https://space-shooter-game-umidu.vercel.app',
+        sourceUrl: '',
+        status: 'completed',
+    },
+
+    {
+        id: 12,
+        image: Work12,
+        title: 'Space Shooter Game 3D (Three.js)',
+        category: 'Games',
+        demoUrl: 'https://space-shooter-game-umidu.vercel.app',
+        sourceUrl: '',
+        status: 'completed',
+    },
+
+    {
+        id: 13,
+        image: Work13,
+        title: 'Appointment Reservation',
+        category: 'web',
+        demoUrl: 'https://appointment-reservation-app.web.app',
         sourceUrl: '',
         status: 'completed',
     },
