@@ -10,6 +10,7 @@ import Work10 from '../../assets/Work10.png';
 import Work11 from '../../assets/Work11.png';
 import Work12 from '../../assets/Work12.png';
 import Work13 from '../../assets/Work13.png';
+import Work14 from '../../assets/Work14.png';
 
 export const projectsData = [
     {
@@ -132,6 +133,18 @@ export const projectsData = [
         sourceUrl: '',
         status: 'completed',
     },
+
+    {
+        id: 13,
+        image: Work14,
+        title: 'Runner Game 3D (Three.js)',
+        category: 'Games',
+        demoUrl: 'https://3d-runner-game-umidu.vercel.app',
+        sourceUrl: '',
+        status: 'completed',
+    },
+
+    
 
     
 ]
