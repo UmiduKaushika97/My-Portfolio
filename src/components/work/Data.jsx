@@ -122,18 +122,9 @@ export const projectsData = [
         status: 'completed',
     },
 
+    
     {
         id: 12,
-        image: Work12,
-        title: 'Space Shooter Game 3D (Three.js)',
-        category: 'Games',
-        demoUrl: 'https://space-shooter-game-umidu.vercel.app',
-        sourceUrl: '',
-        status: 'completed',
-    },
-
-    {
-        id: 13,
         image: Work13,
         title: 'Appointment Reservation',
         category: 'web',
