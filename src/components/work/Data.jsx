@@ -8,6 +8,7 @@ import Work8 from '../../assets/Work8.png';
 import Work9 from '../../assets/Work9.png';
 import Work10 from '../../assets/Work10.png';
 import Work11 from '../../assets/Work11.png';
+import Work12 from '../../assets/Work12.png';
 
 export const projectsData = [
     {
@@ -110,6 +111,16 @@ export const projectsData = [
         status: 'completed',
     },
 
+    {
+        id: 11,
+        image: Work12,
+        title: 'Space Shooter Game 3D (Three.js)',
+        category: 'Games',
+        demoUrl: 'https://space-shooter-game-umidu.vercel.app',
+        sourceUrl: '',
+        status: 'completed',
+    },
+
     
 ]
 
@@ -129,5 +140,9 @@ export const projectsNav = [
 
     {
         name: 'NPM',
+    },
+
+    {
+        name: 'Games',
     }
 ]
