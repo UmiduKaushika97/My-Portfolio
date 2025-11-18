@@ -11,6 +11,7 @@ import Work11 from '../../assets/Work11.png';
 import Work12 from '../../assets/Work12.png';
 import Work13 from '../../assets/Work13.png';
 import Work14 from '../../assets/Work14.png';
+import Work15 from '../../assets/Work15.png';
 
 export const projectsData = [
     {
@@ -140,6 +141,16 @@ export const projectsData = [
         title: 'Runner Game 3D (Three.js)',
         category: 'Games',
         demoUrl: 'https://3d-runner-game-umidu.vercel.app',
+        sourceUrl: '',
+        status: 'completed',
+    },
+
+    {
+        id: 14,
+        image: Work15,
+        title: 'Game Vortex',
+        category: 'web',
+        demoUrl: 'https://game-vortex-umidu.netlify.app',
         sourceUrl: '',
         status: 'completed',
     },
